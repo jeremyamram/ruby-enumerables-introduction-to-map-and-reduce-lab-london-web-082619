@@ -1,14 +1,14 @@
 # My Code here....
 def map_to_negativize(source_array)
-  source_array.map{|n|
+  source_array.map{|n| n*(-1)}
 end
 
 def map_to_no_change(source_array)
-  source_array*1 
+  source_array.map{|n| n*1}
 end
 
 def map_to_double(source_array)
-  source_array*2
+  source_array.map{|n| n*2}
 end
 
 def map_to_square(source_array)
