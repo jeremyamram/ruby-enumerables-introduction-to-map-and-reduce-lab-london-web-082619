@@ -12,7 +12,7 @@ def map_to_double(source_array)
 end
 
 def map_to_square(source_array)
-  source_array**2 
+  source_array.map{|n| n**2} 
 end
 
 def reduce_to_total(source_array, starting_point)
