@@ -1,6 +1,6 @@
 # My Code here....
 def map_to_negativize(source_array)
-  source_array*-1
+  source_array.map
 end
 
 def map_to_no_change(source_array)
